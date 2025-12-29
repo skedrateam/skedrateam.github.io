@@ -21,24 +21,100 @@
         </nav>
       </header>
 
-      <main class="card">
-        <h1>Plan. Focus. Stay consistent.</h1>
-        <p class="muted">
-          Schedy is a lightweight student planner that brings schedules, todos, grade tracking, and Pomodoro focus into one calm flow.
-        </p>
+      <main class="card card--hero">
+        <div class="hero">
+          <div>
+            <h1>Plan. Focus. Stay consistent.</h1>
+            <p class="muted">
+              Schedy is a lightweight student planner that brings schedules, todos, grade tracking, and Pomodoro focus into one calm flow.
+            </p>
 
-        <h2>What you can do</h2>
-        <ul>
-          <li>See upcoming classes and exams at a glance</li>
-          <li>Organize todos and track completion</li>
-          <li>Manage courses and view grade summaries</li>
-          <li>Use Pomodoro sessions to stay focused</li>
-        </ul>
+            <div class="actions">
+              <a class="btn btn--primary" href="support/">Get support</a>
+              <a class="btn" href="privacy/">Privacy policy</a>
+              <a class="btn" href="terms/">Terms</a>
+            </div>
 
-        <p>
+            <div class="feature-grid">
+              <div class="feature">
+                <div class="feature__icon">📅</div>
+                <div>
+                  <div class="feature__title">Schedule</div>
+                  <div class="feature__text muted">See upcoming classes and exams at a glance.</div>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__icon">✅</div>
+                <div>
+                  <div class="feature__title">Todos</div>
+                  <div class="feature__text muted">Track your tasks without items jumping around.</div>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__icon">📊</div>
+                <div>
+                  <div class="feature__title">Grades</div>
+                  <div class="feature__text muted">Keep course and grade summaries in one place.</div>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__icon">⏱️</div>
+                <div>
+                  <div class="feature__title">Pomodoro</div>
+                  <div class="feature__text muted">Focus in sessions and stay consistent.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="preview" aria-label="App preview">
+            <div class="preview__top">
+              <div class="preview__title">Today</div>
+              <div class="preview__pill">Focus</div>
+            </div>
+            <div class="preview__section">
+              <div class="preview__sectionTitle">Upcoming</div>
+              <div class="preview__row">
+                <div class="preview__dot"></div>
+                <div class="preview__rowText">Math Class</div>
+                <div class="preview__rowMeta">10:00</div>
+              </div>
+              <div class="preview__row">
+                <div class="preview__dot"></div>
+                <div class="preview__rowText">Science Fair</div>
+                <div class="preview__rowMeta">13:00</div>
+              </div>
+              <div class="preview__row">
+                <div class="preview__dot"></div>
+                <div class="preview__rowText">History Exam</div>
+                <div class="preview__rowMeta">15:00</div>
+              </div>
+            </div>
+            <div class="preview__section">
+              <div class="preview__sectionTitle">Todos</div>
+              <div class="preview__row">
+                <div class="preview__check"></div>
+                <div class="preview__rowText">Finish homework</div>
+              </div>
+              <div class="preview__row">
+                <div class="preview__check preview__check--done"></div>
+                <div class="preview__rowText muted">Review notes</div>
+              </div>
+            </div>
+            <div class="preview__bottom">
+              <div class="preview__timer">
+                <div class="preview__timerLabel muted">Pomodoro</div>
+                <div class="preview__timerValue">24:58</div>
+              </div>
+              <div class="preview__cta">Start</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="note">
           <span class="pill">Need help?</span>
           Visit <a href="support/">Support</a> or email us directly.
-        </p>
+        </div>
 
         <footer>
           © <span id="year"></span> Schedy
@@ -51,4 +127,3 @@
     </script>
   </body>
 </html>
-
