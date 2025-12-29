@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Schedy</title>
+    <meta name="description" content="Schedy helps students stay organized: schedule, todos, grades, and Pomodoro focus." />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="brand">
+          <div class="title">Schedy</div>
+          <div class="badge">Study Planner</div>
+        </div>
+        <nav>
+          <a href="support/">Support</a>
+          <a href="privacy/">Privacy</a>
+          <a href="terms/">Terms</a>
+        </nav>
+      </header>
+
+      <main class="card">
+        <h1>Plan. Focus. Stay consistent.</h1>
+        <p class="muted">
+          Schedy is a lightweight student planner that brings schedules, todos, grade tracking, and Pomodoro focus into one calm flow.
+        </p>
+
+        <h2>What you can do</h2>
+        <ul>
+          <li>See upcoming classes and exams at a glance</li>
+          <li>Organize todos and track completion</li>
+          <li>Manage courses and view grade summaries</li>
+          <li>Use Pomodoro sessions to stay focused</li>
+        </ul>
+
+        <p>
+          <span class="pill">Need help?</span>
+          Visit <a href="support/">Support</a> or email us directly.
+        </p>
+
+        <footer>
+          © <span id="year"></span> Schedy
+        </footer>
+      </main>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
