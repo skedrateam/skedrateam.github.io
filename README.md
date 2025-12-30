@@ -1,4 +1,4 @@
-# Schedy — GitHub Pages Template
+# Skedra — GitHub Pages Template
 
 Bu klasör App Store Connect için gereken temel sayfaları sağlar:
 
