@@ -1,25 +1,41 @@
-# Skedra — GitHub Pages Template
+# Skedra — Official Website
 
-Bu klasör App Store Connect için gereken temel sayfaları sağlar:
+Welcome to the official repository for the **Skedra App** website. This repository hosts individual pages for marketing, support, legal documents, and verification files.
 
-- Marketing/Home: `index.html`
-- Support: `support/index.html`
-- Privacy Policy: `privacy/index.html`
-- Terms: `terms/index.html`
+**Live Site:** [https://skedrateam.github.io](https://skedrateam.github.io)
 
-## Kurulum (GitHub Pages)
+## 📌 Page Directory
 
-1) GitHub’da bir repo oluştur:
-   - Tercih edilen: `muhammedkilinc.github.io` (user page → URL kökten çalışır)
-   - Alternatif: herhangi bir repo (project page → URL `/repo-adi/` altından çalışır)
-2) Bu klasördeki dosyaları repo **root**’a kopyala.
-3) Repo → Settings → Pages:
-   - Source: `Deploy from a branch`
-   - Branch: `main` / `/ (root)`
-4) Yayına çıktıktan sonra URL’leri Fastlane metadata’ya yaz:
-   - `fastlane/metadata/en-US/marketing_url.txt`
-   - `fastlane/metadata/en-US/support_url.txt`
-   - `fastlane/metadata/en-US/privacy_url.txt`
+| Page | Description | Link |
+|------|-------------|------|
+| **Home** | Main landing page for the app. | [Visit](https://skedrateam.github.io) |
+| **Support** | Support contact information and FAQs. | [Visit](https://skedrateam.github.io/support/) |
+| **Privacy Policy** | Application privacy policy. | [Visit](https://skedrateam.github.io/privacy/) |
+| **Terms of Service** | Terms and conditions of use. | [Visit](https://skedrateam.github.io/terms/) |
 
-Not: Linkler project page senaryosunda da çalışması için **relative** tutuldu.
+## 🛠 Repository Structure
 
+This is a static site built with HTML/CSS and served via **GitHub Pages**.
+
+- **`/`**: Root directory containing the landing page (`index.html`) and verification files.
+- **`/assets`**: Shared styles (`styles.css`) and images.
+- **`/support`**: Support page directory.
+- **`/privacy`**: Privacy policy page directory.
+- **`/terms`**: Terms of service page directory.
+
+## ✅ Verification & Metadata
+
+This repository also hosts essential verification files for third-party services:
+
+- **`app-ads.txt`**: Verifies ad inventory ownership for **Google AdMob**.
+- **`robots.txt`**: Controls crawler access (configured to allow AdMob indexing).
+
+## 🚀 Deployment
+
+Changes pushed to the `main` branch are automatically deployed to GitHub Pages.
+- **Organization:** Skedra Team
+- **Domain:** `skedrateam.github.io`
+
+---
+
+© 2026 Skedra Team. All rights reserved.
